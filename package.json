@@ -1,0 +1,16 @@
+{
+  "name": "vit-fullstack-api",
+  "version": "1.0.0",
+  "description": "VIT Full Stack API Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
