@@ -1,4 +1,5 @@
 import express from "express";
+import serverless from "serverless-http";
 
 const app = express();
 app.use(express.json());
@@ -7,7 +8,6 @@ const FULL_NAME = "venkata_satwik_vutukuri";
 const DOB = "27122004";        
 const EMAIL = "satwikvutukuri@gmail.com";
 const ROLL_NUMBER = "22BCE8747";
-
 
 function alternatingCaps(str) {
     let result = "";
@@ -72,9 +72,4 @@ app.post("/bfhl", (req, res) => {
     }
 });
 
-
-app.listen(3000, () => {
-    console.log("Server running on port 3000");
-});
-
-export default app;
+export default serverless(app);
