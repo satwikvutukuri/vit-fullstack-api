@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Your Name",
+  "author": "venkata satwik vutukuri",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
